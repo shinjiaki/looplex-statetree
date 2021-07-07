@@ -26,7 +26,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-setInterval(() => {
-  wishList.items[0].changePrice(wishList.items[0].price + 1)
-}, 1000)
