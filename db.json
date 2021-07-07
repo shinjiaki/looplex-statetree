@@ -23,56 +23,111 @@
       "image": "https://images-na.ssl-images-amazon.com/images/I/71CpQw%2BufNL._SL1000_.jpg"
     }
   ],
-  "users": {
-    "a342": {
+  "users": [
+    {
       "id": "a342",
       "name": "Homer",
       "gender": "m",
       "wishList": {
         "items": [
           {
-            "name": "Machine Gun Preacher",
-            "price": 7.35,
-            "image":
-              "https://images-na.ssl-images-amazon.com/images/I/91AFFK9fwkL._SY445_.jpg"
+            "name": "Homer Mug",
+            "price": 10,
+            "image": "https://i.pinimg.com/originals/a1/cd/be/a1cdbe9e1709eb4c519dd02d33f59a89.jpg"
           },
           {
-            "name": "LEGO Mindstorms EV3",
-            "price": 349.95,
-            "image":
-              "https://images-na.ssl-images-amazon.com/images/I/71CpQw%2BufNL._SL1000_.jpg"
+            "name": "Donut",
+            "price": 3,
+            "image": "https://w7.pngwing.com/pngs/164/153/png-transparent-donut-the-simpsons-tapped-out-doughnut-homer-simpson-bart-simpson-krusty-the-clown-donut-food-bagel-magenta.png"
+          },
+          {
+            "name": "Duff Beer",
+            "price": 5,
+            "image": "https://e7.pngegg.com/pngimages/591/951/png-clipart-duff-beer-duffman-graphics-beer-beer-bottle-simpsons-movie-thumbnail.png"
           }
         ]
       },
       "recipient": "ba32"
     },
-    "5fc2": {
+    {
       "id": "5fc2",
       "name": "Marge",
       "gender": "f",
-      "wishList": { "items": [] },
+      "wishList": {
+        "items": [
+          {
+            "name": "The Notebook",
+            "price": 10.31,
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51ZXkAJNYWL._AC_US218_.jpg"
+          },
+          {
+            "name": "LEGO Mindstorms EV3",
+            "price": 349.95,
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71CpQw%2BufNL._SL1000_.jpg"
+          }
+        ]
+      },
       "recipient": "65aa"
     },
-    "663b": {
+    {
       "id": "663b",
       "name": "Bart",
       "gender": "m",
-      "wishList": { "items": [] },
+      "wishList": {
+        "items": [
+          {
+            "name": "Machine Gun Preacher",
+            "price": 7.35,
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91AFFK9fwkL._SY445_.jpg"
+          },
+          {
+            "name": "LEGO Mindstorms EV3",
+            "price": 349.95,
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71CpQw%2BufNL._SL1000_.jpg"
+          }
+        ]
+      },
       "recipient": "a342"
     },
-    "65aa": {
+    {
       "id": "65aa",
       "name": "Maggie",
       "gender": "f",
-      "wishList": { "items": [] },
+      "wishList": {
+        "items": [
+          {
+            "name": "The Notebook",
+            "price": 10.31,
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51ZXkAJNYWL._AC_US218_.jpg"
+          },
+          {
+            "name": "LEGO Mindstorms EV3",
+            "price": 349.95,
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71CpQw%2BufNL._SL1000_.jpg"
+          }
+        ]
+      },
       "recipient": "5fc2"
     },
-    "ba32": {
+    {
       "id": "ba32",
       "name": "Lisa",
       "gender": "f",
-      "wishList": { "items": [] },
+      "wishList": {
+        "items": [
+          {
+            "name": "The Notebook",
+            "price": 10.31,
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51ZXkAJNYWL._AC_US218_.jpg"
+          },
+          {
+            "name": "LEGO Mindstorms EV3",
+            "price": 349.95,
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71CpQw%2BufNL._SL1000_.jpg"
+          }
+        ]
+      },
       "recipient": "663b"
     }
-  }
+  ]
 }
