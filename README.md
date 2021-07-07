@@ -1,74 +1,80 @@
-# Looplex - Teste prático
+<h1 align="center">
+  Looplex - Teste prático
+</h1>
+
+## Sobre
 
 Teste desenvolvido pela Looplex para testar minha capacidade de aprendizagem.
 
-# Getting Started with Create React App
+## Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre](#sobre)
+   * [Tabela de conteúdos](#tabela-de-conteúdos)
+   * [Aprendizado](#aprendizado)
+   * [Tecnologias](#tecnologias)
+   * [Como rodar](#como-rodar)
+<!--te-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div id="aprendizado">
 
-## Available Scripts
+## ✍️ Aprendizado
 
-In the project directory, you can run:
+- [Notion - Resumo dos tópicos aprendidos em cada aula](https://www.notion.so/Mobx-State-Tree-Application-Course-732d84acca7a4a6b83d7b7d60edfa9e4)
 
-### `yarn start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<div id="tecnologias">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠️ Tecnologias
 
-### `yarn test`
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [Javascript](https://www.w3schools.com/js/)
+- [React](https://pt-br.reactjs.org/)
+- [Mobx-state-tree](https://mobx-state-tree.js.org/)
 
-### `yarn build`
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div id="como-rodar">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Como rodar
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Pré-requisitos
 
-### `yarn eject`
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+- [Git](https://git-scm.com/)
+- [VSCode](https://code.visualstudio.com/)
+- [Yarn](https://yarnpkg.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Este projeto foi iniciado com [Create React App](https://github.com/facebook/create-react-app)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Clone o repositório e acesse a pasta**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+$ git clone https://github.com/shinjiaki/looplex-statetree.git && cd looplex-statetree-master
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Siga os passos abaixo**
 
-## Learn More
+```bash
+# Instale as dependências rodando o seguinte comando
+$ yarn install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Inicie o JSON-server
+$ yarn run startdb
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Inicie a aplicação web
+$ yarn start
 
-### Code Splitting
+#Pronto, sua página estará rodando no seu navegador http://localhost:3000/
+#e o seu servidor JSON estará rodando na página http://localhost:3001/.
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Caso queira acessar o conteúdo do curso:**
 
-### Analyzing the Bundle Size
+- [Manage Application State with Mobx-state-tree](https://egghead.io/courses/manage-application-state-with-mobx-state-tree)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</div>
