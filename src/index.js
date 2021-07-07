@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import './assets/index.css';
 import App from './components/App';
 
+import { onSnapshot } from "mobx-state-tree"
+
 import { WishList } from "./models/WishList"
 
-const wishList = WishList.create({
+let initialState = {
   items: [
     {
       name: "Machine Gun Preacher",
@@ -18,6 +20,17 @@ const wishList = WishList.create({
       image: "https://www.lego.com/cdn/cs/set/assets/blt7fc03b671602b2fa/31313_alt1.jpg?fit=bounds&format=jpg&quality=80&width=320&height=320&dpr=1"
     }
   ]
+}
+
+if (localStorage.getItem("wishlistapp")) {
+  const json = JSON.parse(localStorage.getItem("wishlistapp"))
+  if (WishList.is(json)) initialState = json
+}
+
+const wishList = WishList.create(initialState)
+
+onSnapshot(wishList, snapshot => {
+    localStorage.setItem("wishlistapp", JSON.stringify(snapshot))
 })
 
 ReactDOM.render(
